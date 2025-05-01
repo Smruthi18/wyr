@@ -1,0 +1,73 @@
+/* Reset and base styling */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: url('wyrimg.jpg') no-repeat center center fixed;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+/* Container */
+.container {
+    background-color: rgba(255, 255, 255, 0.9);
+    border-radius: 15px;
+    padding: 40px;
+    width: 90%;
+    max-width: 600px;
+    text-align: center;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+}
+
+/* Title */
+h1 {
+    font-size: 2.8rem;
+    color: #2c3e50;
+    margin-bottom: 25px;
+    font-weight: bold;
+}
+
+/* Question text */
+#questionText {
+    font-size: 1.6rem;
+    color: #34495e;
+    margin-bottom: 30px;
+    line-height: 1.4;
+}
+
+/* Option buttons */
+.option-btn {
+    background: linear-gradient(to right,#FFEE8C,#F4F8D3);
+    color: #34495e;
+    border: none;
+    padding: 15px 30px;
+    font-size: 1.1rem;
+    margin: 10px;
+    cursor: pointer;
+    border-radius: 50px;
+    transition: all 0.3s ease;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+}
+
+.option-btn:hover {
+    background: linear-gradient(to right, #F4F8D3, #FFEE8C);
+    transform: scale(1.05);
+}
+
+/* Response */
+.response {
+    margin-top: 25px;
+}
+
+#responseText {
+    font-size: 1.2rem;
+    color: #7f8c8d;
+    margin-top: 10px;
+}
